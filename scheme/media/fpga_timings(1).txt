@@ -1,0 +1,95 @@
+-------------------------------------------------------------------
+Release 14.7 Trace  (nt64) 
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. 
+----------------- 
+All values displayed in nanoseconds (ns) 
+ 
+Setup/Hold to clock clk 
+-----------+------------+----------+------------+---------+
+           |Max Setup to|  Process |Max Hold to | Process |
+Source     | clk (edge) |   Corner | clk (edge) |  Corner |
+-----------+------------+----------+------------+---------+
+in_data<0> |    0.972(R)|      FAST|    1.194(R)|     SLOW|
+in_data<1> |    0.999(R)|      FAST|    1.328(R)|     SLOW|
+in_data<2> |    1.003(R)|      FAST|    0.809(R)|     SLOW|
+in_data<3> |    0.916(R)|      FAST|    1.709(R)|     SLOW|
+in_data<4> |    1.118(R)|      FAST|    1.750(R)|     SLOW|
+in_data<5> |    0.829(R)|      FAST|    1.555(R)|     SLOW|
+in_data<6> |    1.394(R)|      FAST|    0.753(R)|     SLOW|
+in_data<7> |    1.597(R)|      SLOW|    1.043(R)|     SLOW|
+in_data<8> |    1.403(R)|      FAST|    1.241(R)|     SLOW|
+in_data<9> |    1.845(R)|      SLOW|    1.334(R)|     SLOW|
+in_data<10>|    1.491(R)|      SLOW|    1.333(R)|     SLOW|
+in_data<11>|    1.078(R)|      FAST|    1.446(R)|     SLOW|
+in_data<12>|    1.088(R)|      FAST|    1.348(R)|     SLOW|
+in_data<13>|    1.276(R)|      FAST|    1.463(R)|     SLOW|
+in_data<14>|    0.996(R)|      FAST|    1.887(R)|     SLOW|
+in_data<15>|    0.840(R)|      FAST|    2.124(R)|     SLOW|
+in_data<16>|    0.831(R)|      FAST|    1.999(R)|     SLOW|
+in_data<17>|    0.258(R)|      FAST|    1.996(R)|     SLOW|
+in_data<18>|    1.001(R)|      FAST|    1.388(R)|     SLOW|
+in_data<19>|    0.419(R)|      FAST|    1.956(R)|     SLOW|
+in_data<20>|    0.678(R)|      FAST|    1.624(R)|     SLOW|
+in_data<21>|    0.252(R)|      FAST|    2.058(R)|     SLOW|
+in_data<22>|    0.611(R)|      FAST|    1.822(R)|     SLOW|
+in_data<23>|    0.275(R)|      FAST|    2.311(R)|     SLOW|
+in_data<24>|    0.490(R)|      FAST|    2.117(R)|     SLOW|
+in_data<25>|    0.364(R)|      FAST|    2.081(R)|     SLOW|
+in_data<26>|    0.362(R)|      FAST|    2.085(R)|     SLOW|
+in_data<27>|    0.666(R)|      FAST|    2.144(R)|     SLOW|
+in_data<28>|    0.323(R)|      FAST|    2.485(R)|     SLOW|
+in_data<29>|    0.535(R)|      FAST|    2.192(R)|     SLOW|
+in_data<30>|    0.476(R)|      FAST|    2.382(R)|     SLOW|
+in_data<31>|    0.489(R)|      FAST|    2.200(R)|     SLOW|
+reset      |    1.564(R)|      FAST|    1.493(R)|     SLOW|
+-----------+------------+----------+------------+---------+
+  
+Clock clk to Pad 
+-----------+-------------+---------+-------------+--------+
+           |Max (slowest)| Process |Min (fastest)|Process |
+           |clk (edge)   | Corner  |clk (edge)   |Corner  |
+Destination|to PAD       |         |to PAD       |        |
+-----------+-------------+---------+-------------+--------+
+out_var<0> |     8.776(R)|    SLOW |     3.796(R)|    FAST|
+out_var<1> |     9.413(R)|    SLOW |     4.239(R)|    FAST|
+out_var<2> |     9.217(R)|    SLOW |     4.061(R)|    FAST|
+out_var<3> |     8.690(R)|    SLOW |     3.731(R)|    FAST|
+out_var<4> |     9.300(R)|    SLOW |     4.173(R)|    FAST|
+out_var<5> |     8.778(R)|    SLOW |     3.811(R)|    FAST|
+out_var<6> |     8.739(R)|    SLOW |     3.792(R)|    FAST|
+out_var<7> |     8.552(R)|    SLOW |     3.680(R)|    FAST|
+out_var<8> |     8.625(R)|    SLOW |     3.793(R)|    FAST|
+out_var<9> |     8.552(R)|    SLOW |     3.672(R)|    FAST|
+out_var<10>|     8.464(R)|    SLOW |     3.628(R)|    FAST|
+out_var<11>|     8.730(R)|    SLOW |     3.860(R)|    FAST|
+out_var<12>|     8.631(R)|    SLOW |     3.732(R)|    FAST|
+out_var<13>|     8.598(R)|    SLOW |     3.797(R)|    FAST|
+out_var<14>|     8.666(R)|    SLOW |     3.741(R)|    FAST|
+out_var<15>|     8.514(R)|    SLOW |     3.718(R)|    FAST|
+out_var<16>|     8.869(R)|    SLOW |     3.959(R)|    FAST|
+out_var<17>|     8.453(R)|    SLOW |     3.643(R)|    FAST|
+out_var<18>|     8.665(R)|    SLOW |     3.763(R)|    FAST|
+out_var<19>|     8.527(R)|    SLOW |     3.656(R)|    FAST|
+out_var<20>|     8.865(R)|    SLOW |     3.903(R)|    FAST|
+out_var<21>|     8.809(R)|    SLOW |     3.870(R)|    FAST|
+out_var<22>|     8.668(R)|    SLOW |     3.766(R)|    FAST|
+out_var<23>|     8.541(R)|    SLOW |     3.740(R)|    FAST|
+out_var<24>|     9.105(R)|    SLOW |     4.054(R)|    FAST|
+out_var<25>|     8.652(R)|    SLOW |     3.734(R)|    FAST|
+out_var<26>|     8.470(R)|    SLOW |     3.635(R)|    FAST|
+out_var<27>|     8.775(R)|    SLOW |     3.841(R)|    FAST|
+out_var<28>|     8.506(R)|    SLOW |     3.660(R)|    FAST|
+out_var<29>|     8.550(R)|    SLOW |     3.668(R)|    FAST|
+out_var<30>|     8.669(R)|    SLOW |     3.760(R)|    FAST|
+out_var<31>|     8.734(R)|    SLOW |     3.820(R)|    FAST|
+-----------+-------------+---------+-------------+--------+
+
+Clock to Setup on destination clock clk 
+---------------+---------+---------+---------+---------+ 
+            | Src:Rise| Src:Fall| Src:Rise| Src:Fall| 
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall| 
+---------------+---------+---------+---------+---------+ 
+clk            |    7.838|    0.438|         |         | 
+---------------+---------+-----
+  
+  
